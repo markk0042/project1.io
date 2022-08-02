@@ -1,0 +1,16 @@
+body {
+
+background-color: slategray;
+width: 100%;
+}
+
+
+
+.navbar ul {
+    margin:0;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    height:30px;
+    background-color: aqua;
+}
