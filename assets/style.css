@@ -14,7 +14,7 @@ body {
 
 .backgroundimg{
     background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 .navbar ul {
@@ -97,7 +97,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 
-/* footer css credit goes to sagardeveloper for assistance on footer responsiveness*/
+/* footer css credit goes to sagardeveloper for assistance on footer responsiveness
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 * {
     padding: 0;
@@ -127,10 +127,13 @@ header span {
     color: #eaa03f;
 }
 
-/* The footer is fixed to the bottom of the page */
+/* The footer is fixed to the bottom of the page 
 
 footer {
     position: fixed;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     bottom: 0;
 }
 
@@ -158,7 +161,7 @@ footer {
     vertical-align: top;
 }
 
-/* Footer left */
+/* Footer left 
 
 .footer-distributed .footer-left {
     width: 30%;
@@ -175,7 +178,7 @@ footer {
     color: #e0ac1c;
 }
 
-/* Footer links */
+/* Footer links 
 
 .footer-distributed .footer-links {
     color: #ffffff;
@@ -196,7 +199,7 @@ footer {
     margin: 0;
 }
 
-/* Footer Center */
+/* Footer Center 
 
 .footer-distributed .footer-center {
     width: 35%;
@@ -240,7 +243,7 @@ footer {
     ;
 }
 
-/* Footer Right */
+/* Footer Right 
 
 .footer-distributed .footer-right {
     width: 30%;
@@ -299,4 +302,38 @@ footer {
     .footer-distributed .footer-center i {
         margin-left: 0;
     }
-}   
+}   */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    background-color: red;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.footer{
+     background-color: #24262b;
+     padding: 70px 0;
+}
+
+.footer-col {
+width: 25%;
+padding: 0 15px;
+
+}
+
