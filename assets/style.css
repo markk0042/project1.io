@@ -5,11 +5,11 @@ body {
     background-image: url("/images/pizza.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: bottom right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.7;
 }
 
 .backgroundimg{
@@ -38,6 +38,60 @@ body {
     display: inline;
 }
 
+/*-----CALLOUT REGION---*/
+
+.navbar-text {
+    color: rgb(165, 161, 161)
+}
+
+.jumbotron {
+background: #444;
+margin-bottom: 310px;
+opacity: 0.9;
+text-align: center;
+}
+
+
+.jumbotron h1 {
+    color: rgb(241, 238, 238);
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Carter One', cursive, sans-serif;
+}
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+.jumbotron-terms {
+    color: #fff;
+    font-size: 20px;
+}
+
+.block-divider--GREY {
+       color: #fff;
+       text-align: center;
+}
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #fff;
+    text-align: center;
+    }
+
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #ee3211;
+    border-color: #fff;
+    color: #fff;
+}
 
 
 /* footer css credit goes to sagardeveloper for assistance on footer responsiveness*/
