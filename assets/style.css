@@ -34,21 +34,17 @@ body {
     margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(226, 12, 34);
-    float: right;
+    float: left;
     display: inline;
 }
 
 /*-----CALLOUT REGION---*/
-
-.navbar-text {
-    color: rgb(165, 161, 161)
-}
-
 .jumbotron {
 background: #444;
-margin-bottom: 310px;
+margin-bottom: 300px;
 opacity: 0.9;
 text-align: center;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -57,17 +53,19 @@ text-align: center;
     font-weight: bold;
     margin-bottom: 30px;
     color: white;
-    font-family: 'Carter One', cursive, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .jumbotron .lead {
     color: #a7a7a7;
     margin: 25px 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .jumbotron-terms {
     color: #fff;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .block-divider--GREY {
@@ -91,6 +89,11 @@ text-align: center;
     background-color: #ee3211;
     border-color: #fff;
     color: #fff;
+}
+
+.block-divider{
+    color:#eaa03f;
+    position: relative;
 }
 
 
