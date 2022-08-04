@@ -19,6 +19,7 @@ html{
 }
 .main-button{
     text-align: center;
+    margin-top: 20px;
 
 }
 
@@ -28,10 +29,11 @@ html{
     padding: 0 20px;
     font-size: 1rem;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
     text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-color: rgba(220, 0, 0, 1);
+    border-radius: 25px;
+    background-color: #24262b;
+    margin-top: 20px;
 }
 
 .main-button button:hover {
@@ -87,7 +89,8 @@ html{
 }
 
 #footer{
- position: absolute;
+   max-height: 100px; 
+position: absolute;
   right: 0;bottom:0;left:0;
 }
 .container{
