@@ -11,8 +11,12 @@ body {
     -o-background-size: cover;
     background-size: cover;
     margin: 0 0 100px;
+    opacity:0.95;
 }
 
+html{
+    height: 100%;
+}
 .main-button{
     text-align: center;
 
@@ -30,6 +34,13 @@ body {
     background-color: rgba(220, 0, 0, 1);
 }
 
+.main-button button:hover {
+    font-size: 16px;
+    color: #ffffff;
+    color: #bbbb;
+    transition: all 0.2s ease;
+    
+}
 
 .backgroundimg{
     background-repeat: no-repeat;
@@ -55,6 +66,18 @@ body {
     color:#ffffff;
     float: left;
     display: inline;
+    text-decoration: none;
+}
+
+.navbar  ul li a:hover {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbb;
+    display: block;
+    transition: all 0.2s ease;
+    padding-top: 8px;
 }
 
 *{
