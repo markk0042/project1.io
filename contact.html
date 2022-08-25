@@ -23,21 +23,26 @@
         </nav>
     </navbar>
 
-    <div class="container contact-form">
-        <form action="action_page.php">
-      
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name.">
-          <label for="subject">Description</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+ <div class="container-fluid form-container">
+    <h2 class="contact-heading">Contact Us!</h2>
+    <form action="#" name="contact_form">
+		<label for="first_name">First Name</label>
+		<input name="first_name" type="text" required placeholder="Firstname"/>
+		<br>
+		<label for="last_name">Last Name</label>
+		<input name="last_name" type="text" required placeholder="LastName"/>
+		<br>
+		<label for="email">Email</label>
+		<input name="email" type="email" required placeholder="youremail@address.com"/>
+		<br>
+		<label for="message">Got a Message?</label><br>
+		<textarea name="message" cols="30" rows="10" placeholder="Got a message ? leave it in here.."required></textarea>
+		<div class="center">
+			<input type="submit" value="Submit">
+		</div>
+	</form>	
 
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
+ </div>
 
 
 
